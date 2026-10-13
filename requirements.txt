@@ -1,0 +1,9 @@
+# Installer d'abord : pip install swig   (nécessaire pour compiler box2d)
+gymnasium[box2d,mujoco]>=1.0.0,<1.3.0
+stable-baselines3>=2.4.0,<3.0
+torch>=2.2
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+imageio>=2.34
+imageio-ffmpeg>=0.5
